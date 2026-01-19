@@ -1,0 +1,31 @@
+.link-component a {
+  text-decoration: none;
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link-component a:hover {
+  color: #0f172a;
+}
+
+
+.highlight-link a {
+  background-color: #f97316;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.highlight-link a:hover {
+  color:white;
+  transform: scale(1.03);
+  box-shadow: 0 8px 25px rgba(249, 115, 22, 0.35);
+}

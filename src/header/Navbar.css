@@ -1,0 +1,43 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-right: 100px;
+}
+
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: #0f172a;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    z-index: 1100;
+  }
+
+  .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px 0;
+    transform: translateY(-120%);
+    transition: transform 0.35s ease;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .navbar-container.open {
+    transform: translateY(0);
+  }
+
+  .navbar-container .link-component a {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,172 @@
+.contact-wrapper {
+  padding: 140px 8%;
+  background: #f9fafb;
+}
+
+
+.contact-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 100px;
+}
+
+.contact-header h6 {
+  color: #f59e0b;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 18px;
+}
+
+.contact-header p {
+  color: #64748b;
+  font-size: 1.05rem;
+}
+
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.contact-left h3 {
+  font-size: 1.75rem;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.contact-desc {
+  color: #64748b;
+  font-size: 1rem;
+  max-width: 420px;
+  margin-bottom: 48px;
+}
+
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contact-list a{
+  color:black;
+  text-decoration: none;
+}
+
+.contact-list a:hover{
+  color:#f59e0b;
+}
+
+.contact-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: #fff7ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f59e0b;
+  font-size: 22px;
+}
+
+.contact-title {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 2px;
+}
+
+.contact-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+
+.contact-form {
+  background: #ffffff;
+  padding: 42px;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-form label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 0.95rem;
+  resize: none;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f59e0b;
+  background: #ffffff;
+}
+
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  background: #f59e0b;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(245, 158, 11, 0.35);
+}
+
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 32px;
+  }
+}
