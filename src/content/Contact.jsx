@@ -24,13 +24,13 @@ export default function Contact() {
       return;
     }
 
-    // Prepare payload for Web3Forms
+    
     const payload = {
-      access_key: "ed382907-0ae9-4bd3-874d-3976ba156381", // Your Web3Forms access key
+      access_key: "ed382907-0ae9-4bd3-874d-3976ba156381", 
       name: formData.name,
       email: formData.email,
       message: formData.message,
-      subject: "New Contact Message", // Optional
+      subject: "New Contact Message", 
     };
 
     try {
