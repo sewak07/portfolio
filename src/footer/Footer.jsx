@@ -7,7 +7,7 @@ export default function Footer() {
 
       <div className="footer-brand">
         <h3>
-          <a href="/" style={{ textDecoration: "none", color: "inherit" }}>Sewak</a>
+          <a href="./" style={{ textDecoration: "none", color: "inherit" }}>Sewak</a>
           <span>.</span>
         </h3>
       </div>
