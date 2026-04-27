@@ -24,9 +24,9 @@ export default function Home() {
         </div>
       </div>
       <div className="home-icons">
-        <LinkComponent link="https://www.github.com" target="_blank" rel="noreferrer" name={<FiGithub size={24} />} />
-        <LinkComponent link="https://www.twitter.com" target="_blank" rel="noreferrer" name={<FiTwitter size={24} />} />
-        <LinkComponent link="https://www.linkedin.com" target="_blank" rel="noreferrer" name={<FiLinkedin size={24} />} />
+        <LinkComponent link="https://github.com/sewak07" target="_blank" rel="noreferrer" name={<FiGithub size={24} />} />
+        <LinkComponent link="https://x.com/aizewak" target="_blank" rel="noreferrer" name={<FiTwitter size={24} />} />
+        <LinkComponent link="https://www.linkedin.com/in/sewak-dhakal" target="_blank" rel="noreferrer" name={<FiLinkedin size={24} />} />
       </div>
       <div className="arrow-to-project">
         <LinkComponent link="#projects" name={<FiArrowDown size={24} />} />

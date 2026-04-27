@@ -7,7 +7,7 @@ export default function Footer() {
 
       <div className="footer-brand">
         <h3>
-          <a href="./" style={{ textDecoration: "none", color: "inherit", display:"inline-block" }}>Sewak</a>
+          <a href="./" style={{ textDecoration: "none", color: "inherit", display: "inline-block" }}>Sewak</a>
           <span>.</span>
         </h3>
       </div>
@@ -19,6 +19,9 @@ export default function Footer() {
         </a>
         <a href="https://x.com/aizewak" target="_blank" rel="noreferrer">
           <FiTwitter />
+        </a>
+        <a href="https://www.linkedin.com/in/sewak-dhakal" target="_blank" rel="noreferrer">
+          <FiLinkedin />
         </a>
         <a href="mailto:sew007ak@gmail.com">
           <FiMail />
