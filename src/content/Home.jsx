@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div id="home">
       <div className="availability">
-        <h4>Available from opportunities</h4>
+        <h4>Available for opportunities</h4>
       </div>
       <div className="name">
         <p>Hi, I'm <span className="myname">Sewak Dhakal</span></p>

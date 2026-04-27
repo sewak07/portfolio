@@ -22,7 +22,7 @@ export default function Header() {
     <div className={`header-container ${scrolled ? "scrolled" : ""}`}>
       <div className="header-logo">
         <h2 >
-          <a href="/" style={{ textDecoration: "none", color: "inherit" }}>Sewak</a>
+          <a href="./" style={{ textDecoration: "none", color: "inherit" }}>Sewak</a>
         </h2>
       </div>
       <Navbar />

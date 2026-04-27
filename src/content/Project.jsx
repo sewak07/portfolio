@@ -25,7 +25,7 @@ export default function Project() {
         <CardComponent img="lms.jpg"
           name="IMES Website"
           title="IMES"
-          description="Fully automated Full Stack Internal Marks Evaluation website from Colleges"
+          description="Fully automated Full Stack Internal Marks Evaluation website for Colleges"
           tech={["Express.js", "Node.js", "React", "MongoDb"]}
           code="https://github.com/sewak07/IMES"
           demo=""
