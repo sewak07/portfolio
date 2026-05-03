@@ -36,7 +36,7 @@ export default function Project() {
           title="Otaku Tube"
           description="Anime webiste for recommendations, ranking and trailer"
           tech={["HTML", "CSS", "JS"]}
-          code="https://github.com/sewak07/otakuTube"
+          code="https://github.com/sewak07/otgit statusakuTube"
           demo="https://sewak07.github.io/otakuTube/"
         />
       </div>
