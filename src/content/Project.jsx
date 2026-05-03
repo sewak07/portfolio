@@ -13,13 +13,13 @@ export default function Project() {
         <p>A selection of projects that showcase my skills in building modern, scalable applications.</p>
       </div>
       <div className="project-container">
-        <CardComponent img="blog.jpg"
-          name="Otaku-Blog Website"
-          title="Otaku-Blog"
-          description="Client side blog website to share notes related to web development"
-          tech={["React"]}
-          code="https://github.com/sewak07/Otaku-Blog"
-          demo="https://sewak07.github.io/Otaku-Blog/"
+        <CardComponent img="politics-hub.png"
+          name="Politics-hub"
+          title="Politics-hub"
+          description="Politics-hub is a MERN stack web application that provides users with the latest news and updates on politics."
+          tech={["Express.js", "Node.js", "React", "MongoDb"]}
+          code="https://github.com/sewak07/Politics-hub"
+          demo=""
         />
 
         <CardComponent img="lms.jpg"
@@ -35,7 +35,7 @@ export default function Project() {
           name="Otaku-Tube Website"
           title="Otaku Tube"
           description="Anime webiste for recommendations, ranking and trailer"
-          tech={["HTML", "CSS", "JS", "API Integration"]}
+          tech={["HTML", "CSS", "JS"]}
           code="https://github.com/sewak07/otakuTube"
           demo="https://sewak07.github.io/otakuTube/"
         />
