@@ -13,12 +13,12 @@ export default function Project() {
         <p>A selection of projects that showcase my skills in building modern, scalable applications.</p>
       </div>
       <div className="project-container">
-        <CardComponent img="politics-hub.png"
-          name="Politics-hub"
-          title="Politics-hub"
-          description="Politics-hub is a MERN stack web application that provides users with the latest news and updates on politics."
-          tech={["Express.js", "Node.js", "React", "MongoDb"]}
-          code="https://github.com/sewak07/Politics-hub"
+        <CardComponent img="Nepal-Protein.png"
+          name="Nepal Protein"
+          title="Nepal-Protein"
+          description=" A modern, full-stack e-commerce website for OSOAA Nepal, a wellness and nutrition brand specializing in supplements and fitness accessories."
+          tech={["React.js", "Vite", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "REST APIs", "JWT authentication", "Cloudinary", "Gmail SMTP", "eSewa payment integration"]}
+          code="https://github.com/sewak07/osoaa-fullstack-development"
           demo=""
         />
 
@@ -26,7 +26,7 @@ export default function Project() {
           name="IMES Website"
           title="IMES"
           description="Fully automated Full Stack Internal Marks Evaluation website for Colleges"
-          tech={["Express.js", "Node.js", "React", "MongoDb"]}
+          tech={["Express.js", "Node.js", "React", "MongoDb", "Mongoose", "REST APIs", "JWT authentication"]}
           code="https://github.com/sewak07/IMES"
           demo=""
         />
