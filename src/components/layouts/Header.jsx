@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import Navbar from "./NavBar";
 
 export default function Header() {
@@ -24,10 +25,9 @@ export default function Header() {
         box-border px-5 py-[18px]
         transition-all duration-300 ease-in-out
         md:px-8 md:py-6
-        ${
-          scrolled
-            ? "border-b-2 border-gray-200 bg-white/70 backdrop-blur-[10px]"
-            : "border-b-2 border-transparent bg-white/0 backdrop-blur-none"
+        ${scrolled
+          ? "border-b-2 border-gray-200 bg-white/70 backdrop-blur-[10px]"
+          : "border-b-2 border-transparent bg-white/0 backdrop-blur-none"
         }
       `}
     >
@@ -35,7 +35,7 @@ export default function Header() {
       <div className="header-logo">
         <h2 className="ml-0 text-[22px] font-bold tracking-[-0.5px] md:ml-[100px] md:text-2xl">
           <a
-            href="./"
+            href="/"
             className="text-inherit no-underline after:text-orange-500 after:content-['.']"
           >
             Sewak

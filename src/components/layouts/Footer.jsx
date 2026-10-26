@@ -12,7 +12,7 @@ export default function Footer() {
       {/* Brand */}
       <div className="footer-brand">
         <h3 className="text-[1.2rem] font-bold text-slate-900">
-          <a href="./" className="inline-block text-inherit no-underline">
+          <a href="/" className="inline-block text-inherit no-underline">
             Sewak
           </a>
           <span className="ml-0.5 text-amber-500">.</span>
