@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import Navbar from "./NavBar";
+import Navbar from "./Navbar.jsx";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
