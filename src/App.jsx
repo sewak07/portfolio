@@ -1,13 +1,22 @@
-import Header from "./header/Header";
-import Content from "./content/Content";
-import Footer from "./footer/Footer"
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home.jsx"
+import Projects from "./pages/Projects";
+
+import Footer from "./components/layouts/Footer.jsx";
+
+
 function App() {
   return (
-    <div>
-      <Header />
-      <Content />
-      <Footer/>
-    </div>
-  )
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+
+      <Footer />
+    </>
+  );
 }
+
 export default App;
