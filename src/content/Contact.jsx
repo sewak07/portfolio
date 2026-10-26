@@ -34,7 +34,7 @@ export default function Contact() {
     }
 
     const payload = {
-      access_key: "ed382907-0ae9-4bd3-874d-3976ba156381",
+      access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,
       name: formData.name.trim(),
       email: formData.email.trim(),
       message: formData.message.trim(),
@@ -45,7 +45,7 @@ export default function Contact() {
     setStatus("");
 
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch(import.meta.env.VITE_WEB3FORMS_API_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -83,12 +83,12 @@ export default function Contact() {
       className="bg-gray-50 px-[6%] py-20 sm:px-[8%] sm:py-24 lg:py-[140px]"
     >
       {/* Section Header */}
-      <div className="mx-auto mb-14 max-w-[720px] text-center sm:mb-16 lg:mb-24">
-        <h1 className="mb-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:mb-[18px] lg:text-5xl">
+      <div className="mx-auto mb-10 max-w-[720px] px-2 text-center sm:mb-16 sm:px-0 lg:mb-24">
+        <h1 className="mb-3 text-2xl font-bold leading-tight tracking-tight text-slate-900 sm:mb-4 sm:text-4xl lg:mb-[18px] lg:text-5xl">
           Let's Work Together
         </h1>
 
-        <p className="mx-auto max-w-2xl text-base leading-7 text-slate-500 sm:text-[17px]">
+        <p className="mx-auto max-w-xl text-sm leading-6 text-slate-500 sm:text-base sm:leading-7 lg:text-[17px]">
           Have a project in mind or just want to chat? I'd love to hear from
           you.
         </p>
@@ -97,24 +97,25 @@ export default function Contact() {
       {/* Contact Content */}
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-16 xl:gap-20">
         {/* Left: Contact Information */}
+
         <div className="min-w-0">
-          <h3 className="mb-4 text-2xl font-bold text-slate-900 sm:text-[28px]">
+          <h3 className="mb-3 text-xl font-bold text-slate-900 sm:mb-4 sm:text-2xl lg:text-[28px]">
             Get in Touch
           </h3>
 
-          <p className="mb-9 max-w-[420px] text-base leading-7 text-slate-500 sm:mb-12">
+          <p className="mb-7 max-w-[420px] text-sm leading-6 text-slate-500 sm:mb-10 sm:text-base sm:leading-7 lg:mb-12">
             I'm always open to discussing new projects, creative ideas, or
             opportunities to be part of your vision.
           </p>
 
-          <div className="flex flex-col gap-7">
+          <div className="flex flex-col gap-5 sm:gap-7">
             <ContactListComponent
               icon={<FiMail />}
               title="Email"
               value={
                 <a
                   href="mailto:sew007ak@gmail.com"
-                  className="break-all text-slate-900 no-underline transition-colors duration-200 hover:text-amber-500"
+                  className="break-all text-sm text-slate-900 no-underline transition-colors duration-200 hover:text-amber-500 sm:text-base"
                 >
                   sew007ak@gmail.com
                 </a>
@@ -127,7 +128,7 @@ export default function Contact() {
               value={
                 <a
                   href="tel:9807902217"
-                  className="text-slate-900 no-underline transition-colors duration-200 hover:text-amber-500"
+                  className="text-sm text-slate-900 no-underline transition-colors duration-200 hover:text-amber-500 sm:text-base"
                 >
                   9807902217
                 </a>

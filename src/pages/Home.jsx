@@ -5,14 +5,13 @@ import FeaturedProject from "../content/FeaturedProject.jsx";
 import Skills from "../content/Skills.jsx";
 import Contact from "../content/Contact.jsx";
 
-import "./Home.css";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      <main className="home-container">
+      <main className="w-full">
         <Hero />
 
         <FeaturedProject />
