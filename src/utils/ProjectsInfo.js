@@ -95,7 +95,7 @@ const projects = [
       "E-sport tournament website from popular mobile game Free Fire with whatsapp integration.",
     tech: ["React", "Tailwind CSS"],
     code: "https://github.com/sewak07/Free-fire",
-    demo: "",
+    demo: "https://sewak07.github.io/Free-fire/",
     isFeatured: false,
   },
   {
@@ -104,8 +104,8 @@ const projects = [
     description:
       "Personal developer portfolio showcasing projects, skills, and contact information.",
     tech: ["React", "Tailwind CSS"],
-    code: "",
-    demo: "",
+    code: "https://github.com/sewak07/portfolio",
+    demo: "https://portfolio-tau-puce-16.vercel.app/projects",
     isFeatured: false,
   },
 ];
